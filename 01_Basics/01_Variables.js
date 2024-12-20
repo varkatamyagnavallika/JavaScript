@@ -15,7 +15,7 @@ console.table([accountID,accountName,accountPassword,accountBranch]); //This wil
 
 // We can create a variable without declaring also 
 let accountState; //If we try to print this variable then you will get an output as undefined.
-
+console.log(accountState);
 /*
 Note:- We will create a variable by using let keyword only. because when we use var keyword we 
 will get an block scope or functional scope.
