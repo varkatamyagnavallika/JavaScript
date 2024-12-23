@@ -5,6 +5,7 @@ let anotherName=myName
 
 console.log(myName) //Yagnavallika
 console.log(anotherName) //Yagnavallika
+
 //If we want to change the value of another name
 
 anotherName="Varkatam"
