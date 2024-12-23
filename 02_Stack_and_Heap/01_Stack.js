@@ -12,4 +12,5 @@ anotherName="Varkatam"
 console.log(myName) //Yagnavallika
 console.log(anotherName) //Varkatam
 
-/* Here in stack when we try to change the value of anotherName only that value will be changed. */
+/* Here in stack when we try to change the value of anotherName only that value will be changed.
+Here whenever we refer some vaiables we will refer the copy not the original varible data. */
