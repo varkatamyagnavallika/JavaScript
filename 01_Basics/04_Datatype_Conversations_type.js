@@ -18,3 +18,7 @@ console.log(undefined>0); //false
 console.log(undefined >=0); //false
 
 //But for undefined it wont be same as null.
+
+/* Datatype comparision... */
+console.log("2"===2);//False
+//Beacuse  === is a strict comparison which compairs the datatype.
