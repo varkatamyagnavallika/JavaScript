@@ -13,3 +13,8 @@ greator than . as comparision operator converts the null to
 Thats why the 3rd conditions gives output as true
 and remaining as false.*/
 
+console.log(undefined==0); //false
+console.log(undefined>0); //false
+console.log(undefined >=0); //false
+
+//But for undefined it wont be same as null.
