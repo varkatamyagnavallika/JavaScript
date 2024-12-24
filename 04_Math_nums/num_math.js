@@ -32,6 +32,20 @@ console.log(Math.abs(-5)); // We will only get the +ve values.
 // Gives the round off if 0.5 above it will give before decimal +1 if less just the number before decimal
 console.log(Math.round(3.3));  // 3 because 0.3<0.5
 console.log(Math.round(3.7)); //4 because 0.7>0.5
-
 console.log(Math.ceil(3.4)); // 4 Takes the highest value
 console.log(Math.floor(4.9)); // 4 takes the lowest value
+console.log(Math.sqrt(score));
+
+//To find the max and min from a particualr range
+console.log(Math.min(score,3332,4));
+console.log(Math.max(score,1,2,3));
+
+//Everytime it will get a new value in between 0 and 1 range
+console.log(Math.random()); // Give output in between 0 and 1
+console.log((Math.random()*10)+1);//for someone like dice r someother things
+console.log(Math.floor(Math.random()*10)+1); 
+
+const min=11
+const max=21
+console.log(Math.floor(Math.random() * (max-min + 1)) + min); //when we want the output abvoe min
+ 
