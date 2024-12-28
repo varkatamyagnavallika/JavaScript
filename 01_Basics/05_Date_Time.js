@@ -27,3 +27,16 @@ console.log(mycreateDate.toLocaleString());
 
 let myTimeStamp =Date.now();
 console.log(myTimeStamp);
+console.log(myCreatedDate.getTime());
+//to convert it into secs
+console.log(Date.now()/1000); //It will get a decimal values
+console.log(Math.floor(Date.now()/1000)); //Without decimal values
+let newDate=new Date()
+console.log(newDate);
+console.log(newDate.getMonth()+1); //+1 beacuase here normally the month count starts from 0
+console.log(newDate.getDay());
+
+console.log(`${ newDate.getDay()} and the month is ${newDate.getMonth()}`);
+newDate.toLocaleString('default',{
+    weekday: "long",
+})
