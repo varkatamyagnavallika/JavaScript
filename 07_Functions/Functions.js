@@ -19,7 +19,6 @@ let number2=4;
 const result = add2Numbers(number1,number2);
 console.log("Result : ",result);
 //When you use return you will use any variable and store init and display. But, we cannot display the returned value without using a variable(With console.log())
-
 function loginUserMessage(username){
     if(username === undefined){
         console.log("Please enter a username");
